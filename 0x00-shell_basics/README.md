@@ -6,3 +6,4 @@ Display current directory contents in a long format,including files starting wit
 Display current directory contents : LongFormat/user,groupids(n)/hiddenFiles(.) : ls -nal or ls -n -a -l //
 Script that creates a directory named my_first_directory in the /tmp/ directory : mkdir /tmp/my_first_directory
 
+
