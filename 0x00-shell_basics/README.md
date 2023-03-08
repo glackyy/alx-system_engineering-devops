@@ -11,6 +11,6 @@ Delete the file betty.from the directory /tmp/my_first_directory : rm /tmp/my_fi
 Delete the directory my_first_directory from /tmp directory : rm -r /tmp/my_first_directory //
 Script that changes the working directory to the previous one : cd - (don't do cd .. it won't work) //
 script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format : ls -al . .. /boot //
-
+Script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script : file /tmp/iamafile //
 
 
