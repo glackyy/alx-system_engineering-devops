@@ -23,7 +23,7 @@ DON'T FORGET : #!/bin/bash in vi or emacs.
 > !:mime School //
 In your current working directory convert the file school.mgc : file -C -m school.mgc //
 PS :
-DON'T FORGET TO DO : chmod u+x filename after you are done with the vi or emacs 
+DON'T FORGET TO DO : chmod u+x filename after you are done with the vi or emacs //
 git add . 
 git commit -m "message"
 git push
