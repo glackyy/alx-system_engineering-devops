@@ -9,6 +9,8 @@ Script that creates a directory named my_first_directory in the /tmp/ directory 
 move a file from a directory to another directory : mv /tmp/betty /tmp/my_first_directory //
 Delete the file betty.from the directory /tmp/my_first_directory : rm /tmp/my_first_directory/betty //
 Delete the directory my_first_directory from /tmp directory : rm -r /tmp/my_first_directory //
+Script that changes the working directory to the previous one : cd - (don't do cd .. it won't work) //
+
 
 
 
