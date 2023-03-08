@@ -10,7 +10,7 @@ move a file from a directory to another directory : mv /tmp/betty /tmp/my_first_
 Delete the file betty.from the directory /tmp/my_first_directory : rm /tmp/my_first_directory/betty //
 Delete the directory my_first_directory from /tmp directory : rm -r /tmp/my_first_directory //
 Script that changes the working directory to the previous one : cd - (don't do cd .. it won't work) //
-
+script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format : ls -al . .. /boot //
 
 
 
