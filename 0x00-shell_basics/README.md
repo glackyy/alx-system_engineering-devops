@@ -12,5 +12,5 @@ Delete the directory my_first_directory from /tmp directory : rm -r /tmp/my_firs
 Script that changes the working directory to the previous one : cd - (don't do cd .. it won't work) //
 script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format : ls -al . .. /boot //
 Script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script : file /tmp/iamafile //
-
+Symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory : ln -s bin/ls __ls__ //
 
