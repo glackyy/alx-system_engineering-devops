@@ -2,7 +2,7 @@
 # Bash Script that displays 1 to 20, different messages based on specific iterations.
 
 ct=1
-while [ $ct -lt 20 ]; do
+while [ $ct -le 20 ]; do
     echo "$ct"
     case $ct in
         "4") echo "bad luck from China";;
