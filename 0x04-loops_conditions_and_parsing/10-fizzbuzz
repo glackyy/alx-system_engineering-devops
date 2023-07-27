@@ -9,6 +9,6 @@ for number in {1..100}; do
     elif ((number % 5 == 0)); then
         echo "Buzz"
     else
-        ech "$number"
+        echo "$number"
     fi
 done
