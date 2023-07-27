@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Bash Script that displays different messages based on loop iteration
+
+ct=0
+while [ $ct -lt 10 ]; do
+    if [ $ct -eq 3 ]; then
+        echo "bad luck"
+    elif [ $ct -eq 7 ]; then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((ct++))
+done
