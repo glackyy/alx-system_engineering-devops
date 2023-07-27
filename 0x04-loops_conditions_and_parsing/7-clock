@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Bash Script that displays the time clock.
+
+hour=0
+while [ $hour -le 12 ]; do
+    echo "$hour"
+    min=1
+    while [ $min -le 59 ]; do
+        echo "$min"
+        ((min++))
+    done
+    ((hour++))
+done
