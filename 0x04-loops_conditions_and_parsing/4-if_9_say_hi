@@ -5,8 +5,7 @@ ct=0
 while [ $ct -lt 10 ]; do
     if [ $ct -eq 9 ]; then
         echo "Hi"
-    else
-        echo "Best School"
     fi
+        echo "Best School"
     ((ct++))
 done
