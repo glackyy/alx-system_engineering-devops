@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Bash Script that displays "Best School" 10times and "Hi" in the 9th iteration
+
+ct=0
+while [ $ct -lt 10 ]; do
+    if [ $ct -eq 8 ]; then
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+    ((ct++))
+done
