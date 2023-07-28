@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Bash Script that displays a list of current running procceses.
+# it Contains the bash keyword.
+
+ps -aux | grep bash
