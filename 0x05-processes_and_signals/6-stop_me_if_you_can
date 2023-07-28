@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash Script that kills task-4 process.
+
+pkill -f 4-to_infinity_and_beyond
